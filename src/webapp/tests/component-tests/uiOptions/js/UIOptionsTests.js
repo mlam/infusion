@@ -253,6 +253,9 @@ https://github.com/fluid-project/infusion/raw/master/Infusion-LICENSE.txt
             jqUnit.assertEquals("Line spacing correctly updated", expectedSelections.lineSpacing, actualSelections.lineSpacing);            
         };
         
+        /*
+         * Test standard UI Options
+         */
         tests.asyncTest("UIOptions Integration tests", function () {
             testUIOptions(function (uiOptions, uiEnhancer) {
                 checkUIOComponents(uiOptions, uiEnhancer);
